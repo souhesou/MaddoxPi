@@ -1,0 +1,23 @@
+RefugieBundle\Entity\Refugie:
+    type: entity
+    table: null
+    repositoryClass: RefugieBundle\Repository\RefugieRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nom:
+            type: string
+            length: 255
+        prenom:
+            type: string
+            length: 255
+        age:
+            type: integer
+        origine:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

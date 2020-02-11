@@ -1,0 +1,12 @@
+ajout_Refugie:
+    path:     /ajout
+    defaults: { _controller: RefugieBundle:Refugie:ajout }
+affiche_Refugie:
+    path:     /affiche
+    defaults: { _controller: RefugieBundle:Refugie:affiche}
+modifier_Refugie:
+    path:     /modifier
+    defaults: { _controller: RefugieBundle:Refugie:modifier}
+supprimer_Refugie:
+    path:     /supprimer{id}
+    defaults: { _controller: RefugieBundle:Refugie:supprimer}
